@@ -17,13 +17,22 @@ After a careful market research, there is no app with these functionalities. For
 
 ### Server
 - app.py
-  - `venv\Scripts\activate`
+  - on Windows
+    - `venv\Scripts\activate`
+  - on macOS/Linux
+    - `. venv\bin\activate`
   - `flask run`
 - http_scheduling/
-  - `venv\Scripts\activate`
+  - on Windows
+    - `venv\Scripts\activate`
+  - on macOS/Linux
+    - `. venv\bin\activate`
   - `py scheduling.py`
 - scheduler_ai/
-  - `venv\Scripts\activate`
+  - on Windows
+    - `venv\Scripts\activate`
+  - on macOS/Linux
+    - `. venv\bin\activate`
   - `py scheduler_analisi.py`
 
 ## Demo app
