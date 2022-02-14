@@ -16,26 +16,18 @@ After a careful market research, there is no app with these functionalities. For
 `flutter run --no-sound-null-safety`
 
 ### Server
-- app.py
-  - on Windows
-    - `venv\Scripts\activate`
-  - on macOS/Linux
-    - `. venv\bin\activate`
-  - `flask run`
-- http_scheduling/
-  - on Windows
-    - `venv\Scripts\activate`
-  - on macOS/Linux
-    - `. venv\bin\activate`
-  - `py scheduling.py`
-- scheduler_ai/
-  - on Windows
-    - `venv\Scripts\activate`
-  - on macOS/Linux
-    - `. venv\bin\activate`
-  - `py scheduler_analisi.py`
+#### Flask
+##### Activate the environment
+Before you work on this project, activate the corresponding environment:
+- Windows: `venv\Scripts\activate`
+- macOS/Linux: `. venv\bin\activate`
 
-## Demo app
+After that:
+- app.py: `flask run`
+- http_scheduling/: `py scheduling.py`
+- scheduler_ai/:  `py scheduler_analisi.py`
+
+## Demo
 
 
 https://user-images.githubusercontent.com/43890556/153902587-55d188e9-6868-4842-9164-6acb72f18a46.mp4
